@@ -2,9 +2,9 @@
 
 ## Create Landing Page with Fixed Button
 
-### Screenshoot of My Landing Page
+### Screen Capture of My Landing Page
 
-![My Landing Page](resources/my-landing-page.png)
+![My Landing Page](resources/my-landing-page.gif)
 
 ### Screenshoot of Example Landing Page
 
