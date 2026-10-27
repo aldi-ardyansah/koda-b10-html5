@@ -4,8 +4,8 @@
 
 ### Screenshoot of Example Landing Page
 
-![Example Landing Page](example-landing-page.jpg)
+![Example Landing Page](resources/example-landing-page.jpg)
 
 ### Screenshoot of My Landing Page
 
-![My Landing Page](my-landing-page.jpg)
+![My Landing Page](resources/my-landing-page.jpg)
