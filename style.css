@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     margin: 0;
     padding: 20px;
     background-color: #F5F5F5FF;
+    font-family: Arial, sans-serif;
+    letter-spacing: -0.02em;
+    word-spacing: -0.05em;
+    font-weight: 100;
 }
 
 .header {
@@ -29,7 +32,7 @@ body {
 .section-2,
 .section-3 {
     float: left;
-    height: 420px;
+    height: 300px;
     border-radius: 20px;
     padding: 20px;
 }
@@ -39,6 +42,19 @@ body {
     margin-right: 20px;
     background-color: #E1E3F8FF;
     overflow: hidden;
+    position: relative;
+}
+
+.section-1-1 {
+    display: inline-block;
+    width: calc(50% - 10px);
+    vertical-align: top;
+}
+
+.section-1-2 {
+    display: inline-block;
+    width: calc(50% - 10px);
+    vertical-align: top;
 }
 
 .section-2 {
@@ -56,12 +72,21 @@ body {
     position: relative;
 }
 
-.section-2 p,
-.section-3 p {
+.section-1 > p,
+.section-2 > p,
+.section-3 > p {
     position: absolute;
     bottom: 20px;
     left: 20px;
     right: 20px;
+    margin: 0;
+}
+
+.section-1-1 p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: calc(60% - 30px);
     margin: 0;
 }
 
@@ -107,9 +132,9 @@ body {
 
 .img-coneflower {
     display: block;
-    width: calc(50% + 20px);
+    width: calc(100% + 20px);
     height: 280px;
-    margin: 0 -20px -20px auto;
+    margin: 0 -20px -20px 0;
     overflow: hidden;
     border-radius: 0 0 20px 20px;
 }
@@ -124,8 +149,8 @@ body {
 .img-pantheon {
     display: block;
     margin: auto;
-    height: 75%;
-    width: 75%;
+    height: 50%;
+    width: 50%;
 }
 
 .try {
