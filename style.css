@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #F5F5F5FF;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #E1E3F8FF;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.section {
+    width: 100%;
+    display: flow-root;
+    margin-bottom: 20px;
+}
+
+.section-1,
+.section-2,
+.section-3 {
+    float: left;
+    height: 240px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section-1 {
+    width: 50%;
+    margin-right: 20px;
+    background-color: #E1E3F8FF;
+}
+
+.section-2 {
+    width: 25%;
+    margin-right: 20px;
+    background-color: #2B2742FF;
+    color: #FFFFFF;
+}
+
+.section-3 {
+    width: calc(25% - 40px);
+    background-color: #2B2742FF;
+    color: #FFFFFF;
+}
+
+.article {
+    width: 100%;
+    display: flow-root;
+}
+
+.article-1,
+.article-2 {
+    float: left;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.article-1 {
+    width: 50%;
+    margin-right: 20px;
+    background-color: #F5F5F5FF;
+}
+
+.article-2 {
+    width: calc(50% - 20px);
+    background-color: #FFFFFF;
+}
+
+.img-pantheon {
+    display: block;
+    margin: auto;
+    height: 75%;
+    width: 75%;
+}
+
+.img-coin {
+    width: 100%;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.img-coin img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.try {
+    display: inline-block;
+    padding: 10px;
+    height: 40px;
+    width: 160px;
+    border-radius: 40px;
+    border: none;
+    background-color: #020204FF;
+    color: #FFFFFF;
+    text-decoration: none;
+}
