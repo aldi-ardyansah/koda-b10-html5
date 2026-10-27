@@ -2,6 +2,6 @@
 
 ## Create Landing Page with Fixed Button
 
-### Screenshoot
+### Screenshoot of Example Landing Page
 
 ![Screenshoot](landing-page.jpg)
